@@ -1,11 +1,10 @@
 def loop_message_five_times(arrays)
-counter = 0
-pets = [ "Dogs", "Cats","Birds", "Hamsters", "Lizards" ]
+count = 0
 
-while pets[counter] do
-  puts pets[counter]
-  counter += 1
-end
+while count < arrays do
+  puts arrays
+  count += 1
+  end
 
 
 def loop_message_n_times
@@ -13,6 +12,10 @@ def loop_message_n_times
 end
 
 def output_array
+  
+end
+
+def return_string_array
   
 end
 
