@@ -1,10 +1,11 @@
-def loop_message_five_times(arrays)
+def loop_message_five_times(message)
 count = 0
 
-while count < arrays do
-  puts arrays
+ while count < message do
+  puts message
   count += 1
   end
+end
 
 
 def loop_message_n_times
